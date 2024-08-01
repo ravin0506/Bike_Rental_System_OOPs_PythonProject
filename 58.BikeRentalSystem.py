@@ -8,7 +8,7 @@ class Bikeshop:
     def RentForBike(self, Qnt):
 
         if Qnt <= 0:
-            print('Entered Value should be >=0')
+            print('Entered Value should be >0')
             print("Available Bikes:-", self.stock)
         elif Qnt > self.stock:
             print('Entered value is greater than Available Bikes')
